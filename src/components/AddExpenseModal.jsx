@@ -23,7 +23,7 @@ export default function AddExpenseModal({ show, handleClose, defaultBudgetId }) 
       <Form onSubmit={handleSubmit}>
         <Modal.Header closeButton>
           <Modal.Title>New Expense</Modal.Title>
-          </Modal.Header>
+        </Modal.Header>
         <Modal.Body>
           <Form.Group className="mb-3" controlId="description">
             <Form.Label>Description</Form.Label>
